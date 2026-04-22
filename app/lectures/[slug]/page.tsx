@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Header } from "@/components/Header";
@@ -7,6 +8,35 @@ import { getAllLectures, getLectureBySlug } from "@/lib/data";
 
 export function generateStaticParams() {
   return getAllLectures().map((l) => ({ slug: l.slug }));
+}
+
+export function generateMetadata({
+  params,
+}: {
+  params: { slug: string };
+}): Metadata {
+  const lecture = getLectureBySlug(params.slug);
+  if (!lecture) return {};
+  const title = `${lecture.title} | Lecture Summary`;
+  const description =
+    lecture.summary ??
+    `${lecture.date} · 강사 ${lecture.instructor} · 대상 ${lecture.audience}`;
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      url: `/lectures/${lecture.slug}`,
+      images: ["/og-image.png"],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: ["/og-image.png"],
+    },
+  };
 }
 
 export default function LecturePage({

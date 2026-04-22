@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -sL https://lecture-summary-cyan.vercel.app/ -o /tmp/home.html)",
+      "Read(//tmp/**)"
+    ]
+  }
+}
