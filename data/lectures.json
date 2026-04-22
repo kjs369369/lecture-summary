@@ -1,0 +1,94 @@
+{
+  "updatedAt": "2026-04-22",
+  "lectures": [
+    {
+      "slug": "claude-ai-intro-skills",
+      "title": "클로드AI 소개 및 스킬기능 실습특강",
+      "audience": "민 AI아트 크리에이터 클래스",
+      "instructor": "김진수",
+      "date": "2026-04-20",
+      "summary": "Claude AI의 핵심 기능과 Skills 활용법을 실습 중심으로 다룬 특강. 콘텐츠 크리에이터를 위한 AI 워크플로우 응용 사례 포함.",
+      "recording": {
+        "url": "https://vimeo.com/1184832017",
+        "password": "123",
+        "note": "Vimeo 녹화본"
+      },
+      "materials": [
+        {
+          "label": "클로드AI 소개 및 실습자료",
+          "url": "https://canva.link/vai8rgr5yq5g979",
+          "note": "Canva"
+        },
+        {
+          "label": "강의채팅 기록",
+          "url": "https://docs.google.com/document/d/1XPYYeURTckoX0H8MVwZdQfGan15-oFFE1-VupRifxIM/edit?usp=sharing",
+          "note": "Google Docs"
+        }
+      ],
+      "chat": {
+        "label": "실시간 강의채팅",
+        "url": "https://docs.google.com/document/d/1XPYYeURTckoX0H8MVwZdQfGan15-oFFE1-VupRifxIM/edit?usp=sharing"
+      },
+      "linkGroups": [
+        {
+          "title": "Claude 제품 및 문서",
+          "description": "강의에서 소개된 Claude 관련 공식 링크",
+          "links": [
+            { "label": "Claude 바로가기", "url": "https://claude.ai/new" },
+            { "label": "Skills 페이지 바로가기", "url": "https://claude.ai/customize/skills" },
+            { "label": "Claude AI (웹)", "url": "https://claude.ai" },
+            { "label": "데스크톱 앱 다운로드", "url": "https://claude.com/download" },
+            { "label": "Cowork (코워크)", "url": "https://claude.com/product/cowork" },
+            { "label": "Claude Code 문서", "url": "https://docs.claude.com/en/docs/claude-code/overview" },
+            { "label": "Claude Code npm 설치", "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code" },
+            { "label": "Claude 도움말", "url": "https://support.claude.com" }
+          ]
+        },
+        {
+          "title": "AI강사용 Skills 라이브러리",
+          "description": "실습에 활용된 큐레이션 자료 및 응용 사례",
+          "links": [
+            {
+              "label": "AI강사용 Skills 라이브러리 추천 100 [사본저장]",
+              "url": "https://docs.google.com/document/d/1_mOUXgYecxrGUAxDFDfVyf2Wt-UthmuXoe2q8DJZz5c/edit?usp=sharing"
+            },
+            {
+              "label": "'콘텐츠크리에이터' 응용 채팅 사례",
+              "url": "https://claude.ai/share/7317fb1f-372c-4fd4-82de-e4fccf93dfa0"
+            },
+            {
+              "label": "강의에서 드린 스킬 3종 (Google Drive)",
+              "url": "https://drive.google.com/drive/folders/1T34ZagFXNvlM6D_oFBSR5uAY9wRvNjaL?usp=drive_link"
+            }
+          ]
+        },
+        {
+          "title": "클로드 아카데미",
+          "description": "Claude 학습을 위한 공식·커뮤니티 리소스",
+          "links": [
+            { "label": "긱뉴스 제공 링크", "url": "https://news.hada.io/topic?id=27118" },
+            { "label": "Claude 101 바로가기", "url": "https://anthropic.skilljar.com/claude-101" }
+          ]
+        },
+        {
+          "title": "Skills 생태계",
+          "description": "전세계 Skills 생태계 공식 리소스",
+          "links": [
+            {
+              "label": "Skills 홈페이지 (목록 및 리더보드)",
+              "url": "https://skills.sh/?utm_source=pytorchkr&ref=pytorchkr"
+            },
+            {
+              "label": "Vercel Skills 공개 블로그",
+              "url": "https://vercel.com/changelog/introducing-skills-the-open-agent-skills-ecosystem?utm_source=pytorchkr&ref=pytorchkr"
+            },
+            {
+              "label": "Skills GitHub 저장소",
+              "url": "https://github.com/vercel-labs/skills?tab=readme-ov-file"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
