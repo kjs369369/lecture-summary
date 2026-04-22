@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-const SITE_URL = "https://lecture-summary-cyan.vercel.app";
+const SITE_URL = "https://jinsoo-class.vercel.app";
 const SITE_TITLE = "Lecture Summary | KAEA & AICLab";
 const SITE_DESCRIPTION =
   "김진수 강사의 강의 아카이브 — 녹화·자료·참고 링크를 한 곳에서 확인하세요.";
